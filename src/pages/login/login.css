@@ -1,0 +1,76 @@
+
+.loginBody{
+	background-image: url(../../img/HavuzBasi.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	
+
+}
+
+
+.frm input{
+	width: 100%;
+	padding: 0.6rem;
+	box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+	border-style: none;
+	border-radius: 10px;
+
+}
+
+.frm input:hover {
+	box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.3);
+	
+}
+.frm input:focus{
+	outline: none;	
+}
+
+.btn button {
+	width: max-content;
+	color: white;
+	padding: 0.6rem 0.8rem;
+	background-color: #0B9699;
+	border-radius: 0.5rem;
+	border: 1px solid #0B9699 ;
+
+}
+.btn button:hover {
+	background-color: transparent;
+	border: 1px solid #0B9699 ;
+	color: #0B9699;
+	transition: all ease .4s;
+}
+
+.login-form {
+	background-color: rgba(255, 255, 255, 0.726);
+	padding: 2rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 30px;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.title {
+	font-size: 35px;
+	margin: 0 auto;
+}
+
+.frm{
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+	width: 100%;
+}
